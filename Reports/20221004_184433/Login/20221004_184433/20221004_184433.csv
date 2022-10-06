@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 106.0.0.0,,,2022-10-04 18:44:36,2022-10-04 18:44:48,12.058s,PASSED
+,,,,,,,
+Test Cases/Steps Definition/Feature Login/LG001 User Login With Invalid Credential,Chrome 106.0.0.0,,,2022-10-04 18:44:36,2022-10-04 18:44:42,6.686s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-04 18:44:36,2022-10-04 18:44:41,4.985s,PASSED
+"callTestCase(findTestCase(""Pages/User Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-04 18:44:41,2022-10-04 18:44:42,0.747s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-04 18:44:42,2022-10-04 18:44:42,0.713s,PASSED
+,,,,,,,
+Test Cases/Steps Definition/Feature Login/LG002 User Login With Valid Credential,Chrome 106.0.0.0,,,2022-10-04 18:44:42,2022-10-04 18:44:48,5.153s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-04 18:44:43,2022-10-04 18:44:45,2.408s,PASSED
+"callTestCase(findTestCase(""Pages/User Login/Input Username""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-04 18:44:45,2022-10-04 18:44:46,0.653s,PASSED
+"callTestCase(findTestCase(""Pages/User Login/Input Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-04 18:44:46,2022-10-04 18:44:46,0.660s,PASSED
+"callTestCase(findTestCase(""Pages/User Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-04 18:44:46,2022-10-04 18:44:47,0.461s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-04 18:44:47,2022-10-04 18:44:48,0.739s,PASSED
